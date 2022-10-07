@@ -26,6 +26,9 @@ body {
 .blue {
   color: #2196f3;
 }
+.white{
+    color: #FFFFFF;
+}
 
 .black {
   color: #000000;
@@ -44,7 +47,7 @@ body {
   line-height: 1.17;
   color: #757575;
 }
-.footer {
+.dark-background {
   background-color: #2f303a;
 }
 
@@ -60,4 +63,59 @@ body {
 .address-footer .link:focus,
 .address-footer .link:hover {
   text-decoration: underline;
+}
+.index-h1 {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.button-order {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  box-shadow: 0px 4px 4px 0px #00000026;
+
+}
+.hidden {
+  display: none;
+}
+.strenghts-header {
+  font-weight: 700;
+  line-height: 1.17;
+}
+.strenghts-p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.index-header2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: ;1.17
+  text-align: center;
+}
+.team-div{
+    background-color: #F5F4FA;
+}
+.member{
+    background-color: #FFFFFF;
+    width: 270px;
+box-shadow: 0px 2px 1px 0px #00000033;
+box-shadow: 0px 1px 1px 0px #00000024;
+box-shadow: 0px 1px 3px 0px #0000001F;
+}
+.member-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.17;
+text-align: center;
+}
+.member-pos{
+    color:#757575;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
 }
