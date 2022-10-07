@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.blue {
+  color: #2196f3;
+}
+
+.black {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+.navigation {
+  font-weight: 500;
+  line-height: 1.17;
+  color: inherit;
+}
+
+.address-header {
+  font-weight: 500;
+  line-height: 1.17;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+
+.address-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.address-footer .link {
+  color: #ffffff60;
+}
+.address-footer .link:focus,
+.address-footer .link:hover {
+  text-decoration: underline;
+}
