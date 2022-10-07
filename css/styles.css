@@ -1,10 +1,11 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 
 .button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 .logo {
@@ -26,8 +27,8 @@ body {
 .blue {
   color: #2196f3;
 }
-.white{
-    color: #FFFFFF;
+.white {
+  color: #ffffff;
 }
 
 .black {
@@ -77,8 +78,8 @@ body {
   font-size: 16px;
   line-height: 1.875;
   box-shadow: 0px 4px 4px 0px #00000026;
-
 }
+
 .hidden {
   display: none;
 }
@@ -94,28 +95,57 @@ body {
 .index-header2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: ;1.17
+  line-height: 1.17;
   text-align: center;
 }
-.team-div{
-    background-color: #F5F4FA;
+.team-div {
+  background-color: #f5f4fa;
 }
-.member{
-    background-color: #FFFFFF;
-    width: 270px;
-box-shadow: 0px 2px 1px 0px #00000033;
-box-shadow: 0px 1px 1px 0px #00000024;
-box-shadow: 0px 1px 3px 0px #0000001F;
+.member {
+  background-color: #ffffff;
+  width: 270px;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
 }
-.member-name{
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.17;
-text-align: center;
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
 }
-.member-pos{
-    color:#757575;
-    font-size: 16px;
-    line-height: 1.17;
-    text-align: center;
+.member-pos {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.button-category {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  background-color: #f5f4fa;
+}
+.button-category:focus,
+.button-category:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.project-category {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+}
+.project-item {
+  border: 1px solid #eeeeee;
+  height: 404px;
+  width: 370px;
 }
